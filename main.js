@@ -602,8 +602,8 @@ function reset() {
 }
 
 function create() {
-  _game.stage.scaleMode = Phaser.ScaleManager.SHOW_ALL;
-  _game.stage.scale.setScreenSize(true);
+  _game.scaleMode = Phaser.ScaleManager.SHOW_ALL;
+  _game.scale.setScreenSize(true);
 
   initBackground();
   initPipes();
