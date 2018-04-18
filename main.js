@@ -60,18 +60,18 @@ var _bgm,
   _playBgm = false;
 
 var _bgmKeyCode = [
-  Phaser.Input.Keyboard.KeyCodes.ZERO,
-  Phaser.Input.Keyboard.KeyCodes.NUMPAD_0
+  Phaser.KeyCode.ZERO,
+  Phaser.KeyCode.NUMPAD_0
 ];
 
 var _flapKeyCode = [
-  Phaser.Input.Keyboard.KeyCodes.E,
-  Phaser.Input.Keyboard.KeyCodes.SPACEBAR
+  Phaser.KeyCode.E,
+  Phaser.KeyCode.SPACEBAR
 ];
 
 var _feedbackKeyCode = [
-  Phaser.Input.Keyboard.KeyCodes.FIVE,
-  Phaser.Input.Keyboard.KeyCodes.NUMPAD_5
+  Phaser.KeyCode.FIVE,
+  Phaser.KeyCode.NUMPAD_5
 ];
 
 var _feedback,
